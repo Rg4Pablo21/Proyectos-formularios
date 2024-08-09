@@ -1,20 +1,16 @@
-//Llamado al node de DOOM
+//Llamado al nodo de DOM
 let root = document.querySelector("#root");
 
 let div_formulario = document.createElement("div");
 div_formulario.className = "div_formulario";
 
-//Lista de datos(String)
+//Lista de datos (String)
 let formulario = [
-    {nombre:"Login",link:"Componentes/Login/Login.html"},
-    {nombre:"FormulariodePedidos ",link:"Componentes/FormularioDePedido/Formulario.html:"},
-    {nombre:"",link:"Componentes/FormularioDeBusqueda/FormularioDeBusqueda.html:"},
-    {nombre:"Login",link:"Componentes/FormularioDeRegistro/FormularioDeRegistro.html:"},
-    {nombre:"Login",link:"Componentes/FormularioDeBusqueda/FormularioDeBusqueda.html:"},
-    {nombre:"Login",link:"Componentes/FormularioDePedidoDeCompras/FormularioDeCompras.html:"},
-    {nombre:"Login",link:"Componentes/FomularioDeComentariosReseñas/FormularioDeComentariosReseñas.html:"},
-    {nombre:"Login",link:"Componentes/FormularioDeContactos/FormularioDeContacto.html:"},
-
+    {nombre: "Login", link: "login/login.html"},
+    {nombre: "Formulario De Pedido", link: "componentes/FormularioPedido/Pedido.html"},
+    {nombre: "Formulario De Busqueda", link: "componentes/FormularioBusqueda/Busqueda.html"},
+    {nombre: "Formulario De Registro", link: "componentes/FormularioDeRegistro/Registro.html"},
+    {nombre: "Formulario De Contacto", link: "componentes/FormularioContacto/Contacto.html"},
 ];
 
 formulario.forEach(itemLista => {
