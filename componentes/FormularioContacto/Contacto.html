@@ -4,11 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../../config/config.css">
     <link rel="stylesheet" href="Contacto.css">
+    <link rel="stylesheet" href="../../config/config.css">
+
+    <div class="form-container">
+        <form action="#" method="post">
+            <h2>Formulario Contacto</h2>
+            <label for="nombre">Nombre y Apellidos:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="empresa">Empresa:</label>
+            <input type="text" id="empresa" name="empresa">
+
+            <label for="email">Email*:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono">
+
+            <label for="poblacion">Población:</label>
+            <input type="text" id="poblacion" name="poblacion">
+
+            <label for="pais">País:</label>
+            <select id="pais" name="pais">
+                <option value="">Selecciona tu país</option>
+                <option value="es">España</option>
+                <option value="mx">México</option>
+
+            </select>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+
+            <div class="checkbox-container">
+                <input type="checkbox" id="privacidad" name="privacidad" required>
+                <label for="privacidad">He leído y acepto la política de privacidad</label>
+            </div>
+
+            <button type="submit">Enviar</button>
+
 </head>
 <body>
-    <h2>Formulario De Contacto </h2>
-    <script src="Contacto.js"></script>
+
+    <script src="DeContacto.js"></script>
+
 </body>
 </html>
